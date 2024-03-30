@@ -22,7 +22,7 @@ const lado3 = parseFloat(process.argv[4]);
 
 if (process.argv.length !== 5 || isNaN(lado1) || isNaN(lado2) || isNaN(lado3)) {
     console.log('Por favor, forneça três números como argumentos para representar os lados do triângulo.');
-    process.exit(1); // Encerra o script com código de erro
+    process.exit(1);
 }
 
 const resultado = verificarTriangulo(lado1, lado2, lado3);
